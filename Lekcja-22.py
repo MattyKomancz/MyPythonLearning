@@ -10,9 +10,17 @@ print(text)
 print(text)
 '''
 
+import datetime
 import calendar
-print(calendar.month(2040,12))
-print(calendar.month(1410,7))
+
+start_year = datetime.date.today().year
+end_year = 2027
+end_month = 12
+
+for year in range(start_year, end_year + 1):
+    last_month = end_month if year == end_year else 12
+    for month in range(1, last_month + 1):
+        print(calendar.month(year, month))
 
 
 '''
