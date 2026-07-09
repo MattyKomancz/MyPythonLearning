@@ -10,7 +10,6 @@ print(text)
 print(text)
 '''
 
-import datetime
 import calendar
 
 start_year = datetime.date.today().year
@@ -36,3 +35,4 @@ Alt + 3 - zakomentuj zaznaczony fragment kodu
 
 Alt + 4 - odkomentuj zaznaczony fragment kodu
 '''
+print()
